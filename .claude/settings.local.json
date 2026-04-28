@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(go mod *)",
+      "Bash(go build *)",
+      "Bash(./bin/gopherlens *)",
+      "Bash(gh --version)",
+      "Read(//usr/lib/**)",
+      "Read(//etc/**)",
+      "Bash(sudo pacman *)",
+      "Bash(gh auth *)",
+      "Bash(git init *)",
+      "Bash(git add *)"
+    ]
+  }
+}
